@@ -9,20 +9,32 @@ fn main() {
 
     // Normal themes
     let normal_palettes = [
-        Palette::new("latte", Theme::Light, COLORS, LATTE_COLORS),
-        Palette::new("frappe", Theme::Dark, COLORS, FRAPPE_COLORS),
-        Palette::new("macchiato", Theme::Dark, COLORS, MACCHIATO_COLORS),
-        Palette::new("mocha", Theme::Dark, COLORS, MOCHA_COLORS),
+        Palette::new("latte", COLORS, LATTE_COLORS, None),
+        Palette::new("frappe", COLORS, FRAPPE_COLORS, None),
+        Palette::new("macchiato", COLORS, MACCHIATO_COLORS, None),
+        Palette::new("mocha", COLORS, MOCHA_COLORS, None),
     ];
     for palette in normal_palettes {
         palette.create_themes("normal");
     }
+
+    // Medium themes
+    let normal_palettes = [
+        Palette::new("latte", COLORS, LATTE_COLORS, None),
+        Palette::new("frappe", COLORS, LATTE_COLORS, None),
+        Palette::new("macchiato", COLORS, LATTE_COLORS, None),
+        Palette::new("mocha", COLORS, LATTE_COLORS, None),
+    ];
+    for palette in normal_palettes {
+        palette.create_themes("medium");
+    }
+
     // Contrast themes
     let contrast_palettes = [
-        Palette::new("latte", Theme::Light, COLORS, LATTE_COLORS),
-        Palette::new("frappe", Theme::Dark, COLORS, LATTE_COLORS),
-        Palette::new("macchiato", Theme::Dark, COLORS, LATTE_COLORS),
-        Palette::new("mocha", Theme::Dark, COLORS, LATTE_COLORS),
+        Palette::new("latte", COLORS, LATTE_COLORS, Some(LATTE_COLORS)),
+        Palette::new("frappe", COLORS, FRAPPE_COLORS, Some(LATTE_COLORS)),
+        Palette::new("macchiato", COLORS, MACCHIATO_COLORS, Some(LATTE_COLORS)),
+        Palette::new("mocha", COLORS, MOCHA_COLORS, Some(LATTE_COLORS)),
     ];
     for palette in contrast_palettes {
         palette.create_themes("contrast");
@@ -66,43 +78,64 @@ static MOCHA_COLORS: [&str; 14] = [
     "#a6e3a1", "#94e2d5", "#89dceb", "#74c7ec", "#89b4fa", "#b4befe",
 ];
 
+#[derive(Default, Debug)]
+struct Color {
+    name: String,
+    hex: String,
+    contrast: Option<String>,
+}
+
+#[derive(Default, Debug)]
 struct Palette {
     name: String,
     colors: Vec<Color>,
-    theme: Theme,
 }
 
 impl Palette {
-    fn new(name: &str, theme: Theme, colors: [&str; 14], hexes: [&str; 14]) -> Self {
+    fn new(
+        name: &str,
+        colors: [&str; 14],
+        hexes: [&str; 14],
+        contrast_colors: Option<[&str; 14]>,
+    ) -> Self {
+        let mut colors: Vec<Color> = colors
+            .iter()
+            .zip(hexes.iter())
+            .map(|(&color, &hex)| Color {
+                name: color.into(),
+                hex: hex.into(),
+                contrast: None,
+            })
+            .collect();
+
+        if let Some(contrast_colors) = contrast_colors {
+            colors
+                .iter_mut()
+                .zip(contrast_colors.iter())
+                .for_each(|(color, &contrast)| color.contrast = Some(contrast.into()))
+        }
         Self {
             name: name.into(),
-            theme,
-            colors: colors
-                .iter()
-                .zip(hexes.iter())
-                .map(|(&color, &hex)| Color {
-                    name: color.into(),
-                    hex: hex.into(),
-                })
-                .collect(),
+            colors,
         }
     }
 
     fn create_themes(&self, folder_name: &str) {
         let file_name = format!("{}.xml", self.name);
-        let temp_file = fs::read_to_string(file_name).expect("Filed to read file.xml");
+        let file_content = fs::read_to_string(file_name).expect("Filed to read file.xml");
 
         for color in &self.colors {
             // file modifications
-            let temp_file = temp_file.replace(ACCENT_COLOR, &color.hex);
-            let file_content = match self.theme {
-                Theme::Light => {
-                    let temp_file = temp_file.replace("#ffffff", "#xxxxxx");
-                    let temp_file = temp_file.replace("#000000", "#ffffff");
-                    temp_file.replace("#xxxxxx", "#000000")
+
+            // change accent_color
+            let mut temp_file = file_content.replace(ACCENT_COLOR, &color.hex);
+
+            // change colors to contrast colors
+            for cycle in &self.colors {
+                if let Some(contrast) = &cycle.contrast {
+                    temp_file = temp_file.replace(&cycle.hex, contrast);
                 }
-                Theme::Dark => temp_file,
-            };
+            }
 
             // create folders
             let path_folders = format!("../themes/{}/{}", folder_name, self.name);
@@ -111,20 +144,10 @@ impl Palette {
             // create files
             let path_file = format!("{}/{}_{}.xml", path_folders, self.name, color.name);
             let mut file = File::create(path_file).expect("Filed to create File");
-            file.write_all(file_content.as_bytes())
+            file.write_all(temp_file.as_bytes())
                 .expect("Filed to  write to File");
         }
     }
-}
-
-struct Color {
-    name: String,
-    hex: String,
-}
-
-enum Theme {
-    Light,
-    Dark,
 }
 
 fn create_master_themes() {
