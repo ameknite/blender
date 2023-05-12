@@ -40,11 +40,34 @@
 <img src="assets/accents_mocha_contrast.svg"/>
 </details>
 
+### Medium (accent contrast)
+
+<details>
+<summary>🌻 Latte</summary>
+<img src="assets/latte_accent.png"/>
+<img src="assets/accents_latte_contrast.svg"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="assets/frappe_accent.png"/>
+<img src="assets/accents_frappe_contrast.svg"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="assets/macchiato_accent.png"/>
+<img src="assets/accents_macchiato_contrast.svg"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="assets/mocha_accent.png"/>
+<img src="assets/accents_mocha_contrast.svg"/>
+</details>
+
 ### Normal
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="assets/Latte.png"/>
+<img src="assets/latte.png"/>
 <img src="assets/accents latte.svg"/>
 </details>
 <details>
@@ -54,12 +77,12 @@
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="assets/Macchiato.png"/>
+<img src="assets/macchiato.png"/>
 <img src="assets/accents macchiato.svg"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="assets/Mocha.png"/>
+<img src="assets/mocha.png"/>
 <img src="assets/accents mocha.svg"/>
 </details>
 
