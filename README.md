@@ -11,8 +11,22 @@
     <a href="https://github.com/ameknite/blender/contributors"><img src="https://img.shields.io/github/contributors/ameknite/blender?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
+## Contrast
+
 <p align="center">
     <img src="assets/catwalk_contrast.webp"/>
+</p>
+
+## Accent
+
+<p align="center">
+    <img src="assets/catwalk_accent.webp"/>
+</p>
+
+## Normal
+
+<p align="center">
+    <img src="assets/catwalk.webp"/>
 </p>
 
 ## Previews and accents
