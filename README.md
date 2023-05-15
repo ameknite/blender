@@ -11,7 +11,7 @@
     <a href="https://github.com/ameknite/blender/contributors"><img src="https://img.shields.io/github/contributors/ameknite/blender?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
-## Contrast
+## Saturated
 
 <p align="center">
     <img src="assets/catwalk_contrast.webp"/>
@@ -23,7 +23,7 @@
     <img src="assets/catwalk_accent.webp"/>
 </p>
 
-## Normal
+## Classic
 
 <p align="center">
     <img src="assets/catwalk.webp"/>
@@ -31,7 +31,7 @@
 
 ## Previews and accents
 
-### Contrast
+### Saturated
 
 <details>
 <summary>🌻 Latte</summary>
@@ -54,7 +54,7 @@
 <img src="assets/accents_mocha_contrast.svg"/>
 </details>
 
-### Medium (accent contrast)
+### Accent
 
 <details>
 <summary>🌻 Latte</summary>
@@ -77,7 +77,7 @@
 <img src="assets/accents_mocha_contrast.svg"/>
 </details>
 
-### Normal
+### Classic
 
 <details>
 <summary>🌻 Latte</summary>

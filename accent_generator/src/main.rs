@@ -15,7 +15,7 @@ fn main() {
         Palette::new("mocha", COLORS, MOCHA_COLORS, None),
     ];
     for palette in normal_palettes {
-        palette.create_themes("normal");
+        palette.create_themes("classic");
     }
 
     // Medium themes
@@ -26,7 +26,7 @@ fn main() {
         Palette::new("mocha", COLORS, LATTE_COLORS, None),
     ];
     for palette in normal_palettes {
-        palette.create_themes("medium");
+        palette.create_themes("accent");
     }
 
     // Contrast themes
@@ -37,7 +37,7 @@ fn main() {
         Palette::new("mocha", COLORS, MOCHA_COLORS, Some(LATTE_COLORS)),
     ];
     for palette in contrast_palettes {
-        palette.create_themes("contrast");
+        palette.create_themes("saturated");
     }
 
     delete_master_themes();
@@ -142,7 +142,10 @@ impl Palette {
             fs::create_dir_all(&path_folders).expect("failed to create folder");
 
             // create files
-            let path_file = format!("{}/{}_{}.xml", path_folders, self.name, color.name);
+            let path_file = format!(
+                "{}/{}_{}_{}.xml",
+                path_folders, self.name, color.name, folder_name
+            );
             let mut file = File::create(path_file).expect("Filed to create File");
             file.write_all(temp_file.as_bytes())
                 .expect("Filed to  write to File");
