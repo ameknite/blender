@@ -63,8 +63,8 @@
                 </wcol_tool>
                 <wcol_toolbar_item>
                     <ThemeWidgetColors
-                        outline="#494d64"
-                        inner="#24273aff"
+                        outline="#363a4f"
+                        inner="#1e2030ff"
                         inner_sel="#8aadf4ff"
                         item="#cad3f5ff"
                         text="#cad3f5"
@@ -93,8 +93,8 @@
                 </wcol_radio>
                 <wcol_text>
                     <ThemeWidgetColors
-                        outline="#494d64"
-                        inner="#24273aff"
+                        outline="#363a4f"
+                        inner="#1e2030ff"
                         inner_sel="#181926ff"
                         item="#8aadf4ff"
                         text="#cad3f5"
@@ -183,8 +183,8 @@
                 </wcol_box>
                 <wcol_menu>
                     <ThemeWidgetColors
-                        outline="#494d64"
-                        inner="#24273aff"
+                        outline="#363a4f"
+                        inner="#1e2030ff"
                         inner_sel="#8aadf4ff"
                         item="#cad3f5ff"
                         text="#cad3f5"
