@@ -10,8 +10,8 @@
                 editor_outline="#181926"
                 widget_text_cursor="#f4dbd6"
                 panel_roundness="0.4"
-                transparent_checker_primary="#363a4f"
-                transparent_checker_secondary="#494d64"
+                transparent_checker_primary="#24273a"
+                transparent_checker_secondary="#181926"
                 transparent_checker_size="8"
                 axis_x="#ed8796"
                 axis_y="#a6da95"
@@ -168,12 +168,12 @@
                 </wcol_numslider>
                 <wcol_box>
                     <ThemeWidgetColors
-                        outline="#494d64"
-                        inner="#494d64ff"
-                        inner_sel="#f4dbd6ff"
-                        item="#cad3f5ff"
+                        outline="#363a4f"
+                        inner="#1e2030ff"
+                        inner_sel="#181926ff"
+                        item="#f4dbd6ff"
                         text="#cad3f5"
-                        text_sel="#24273a"
+                        text_sel="#cad3f5"
                         show_shaded="FALSE"
                         shadetop="0"
                         shadedown="0"
@@ -213,8 +213,8 @@
                 </wcol_pulldown>
                 <wcol_menu_back>
                     <ThemeWidgetColors
-                        outline="#1e2030"
-                        inner="#1e2030ff"
+                        outline="#181926"
+                        inner="#181926ff"
                         inner_sel="#f4dbd6ff"
                         item="#cad3f5ff"
                         text="#cad3f5"
@@ -243,8 +243,8 @@
                 </wcol_pie_menu>
                 <wcol_tooltip>
                     <ThemeWidgetColors
-                        outline="#1e2030"
-                        inner="#1e2030ff"
+                        outline="#181926"
+                        inner="#181926ff"
                         inner_sel="#f4dbd6ff"
                         item="#cad3f5ff"
                         text="#cad3f5"
@@ -258,8 +258,8 @@
                 </wcol_tooltip>
                 <wcol_menu_item>
                     <ThemeWidgetColors
-                        outline="#1e2030"
-                        inner="#1e2030ff"
+                        outline="#181926"
+                        inner="#181926ff"
                         inner_sel="#f4dbd6ff"
                         item="#cad3f5ff"
                         text="#cad3f5"
