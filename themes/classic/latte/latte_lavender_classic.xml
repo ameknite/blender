@@ -1038,7 +1038,7 @@
         <outliner>
             <ThemeOutliner
                 match="#40a02b"
-                selected_highlight="#bcc0cc"
+                selected_highlight="#9ca0b0"
                 active="#7287fd"
                 selected_object="#4c4f69"
                 active_object="#eff1f5"
