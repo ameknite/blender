@@ -19,9 +19,9 @@
                 gizmo_hi="#24273a"
                 gizmo_primary="#eed49f"
                 gizmo_secondary="#91d7e3"
-                gizmo_view_align="#6e738d"
-                gizmo_a="#ee99a0"
-                gizmo_b="#7287fd"
+                gizmo_view_align="#cad3f5"
+                gizmo_a="#a6da95"
+                gizmo_b="#ed8796"
                 icon_scene="#cad3f5ff"
                 icon_collection="#cad3f5ff"
                 icon_object="#f5a97fff"
@@ -1038,7 +1038,7 @@
         <outliner>
             <ThemeOutliner
                 match="#a6da95"
-                selected_highlight="#5b6078"
+                selected_highlight="#494d64"
                 active="#7287fd"
                 selected_object="#cad3f5"
                 active_object="#24273a"
