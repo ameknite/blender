@@ -444,7 +444,7 @@
                         title="#cad3f5"
                         text="#cad3f5"
                         text_hi="#cad3f5"
-                        header="#24273a00"
+                        header="#24273aB3"
                         header_text="#cad3f5"
                         header_text_hi="#cad3f5"
                         button="#24273a00"
@@ -468,7 +468,7 @@
                         </gradients>
                         <panelcolors>
                             <ThemePanelColors
-                                header="#363a4fff"
+                                header="#363a4fB3"
                                 back="#363a4fff"
                                 sub_back="#181926"
                             >
@@ -519,7 +519,7 @@
                         title="#cad3f5"
                         text="#cad3f5"
                         text_hi="#cad3f5"
-                        header="#24273a00"
+                        header="#24273aB3"
                         header_text="#cad3f5"
                         header_text_hi="#cad3f5"
                         button="#24273a00"
@@ -535,7 +535,7 @@
                     >
                         <panelcolors>
                             <ThemePanelColors
-                                header="#363a4fff"
+                                header="#363a4fB3"
                                 back="#363a4fff"
                                 sub_back="#181926"
                             >
@@ -565,7 +565,7 @@
                         title="#cad3f5"
                         text="#cad3f5"
                         text_hi="#cad3f5"
-                        header="#24273a00"
+                        header="#24273aB3"
                         header_text="#cad3f5"
                         header_text_hi="#cad3f5"
                         button="#24273a00"
@@ -581,7 +581,7 @@
                     >
                         <panelcolors>
                             <ThemePanelColors
-                                header="#363a4fff"
+                                header="#363a4fB3"
                                 back="#363a4fff"
                                 sub_back="#181926"
                             >
@@ -623,7 +623,7 @@
                         title="#cad3f5"
                         text="#cad3f5"
                         text_hi="#cad3f5"
-                        header="#24273a00"
+                        header="#24273aB3"
                         header_text="#cad3f5"
                         header_text_hi="#cad3f5"
                         button="#24273a00"
@@ -639,7 +639,7 @@
                     >
                         <panelcolors>
                             <ThemePanelColors
-                                header="#363a4fff"
+                                header="#363a4fB3"
                                 back="#363a4fff"
                                 sub_back="#181926"
                             >
@@ -698,7 +698,7 @@
                         title="#cad3f5"
                         text="#cad3f5"
                         text_hi="#cad3f5"
-                        header="#24273a00"
+                        header="#24273aB3"
                         header_text="#cad3f5"
                         header_text_hi="#24273a"
                         button="#24273a00"
@@ -714,7 +714,7 @@
                     >
                         <panelcolors>
                             <ThemePanelColors
-                                header="#363a4fff"
+                                header="#363a4fB3"
                                 back="#363a4fff"
                                 sub_back="#181926"
                             >
@@ -783,7 +783,7 @@
                         title="#cad3f5"
                         text="#cad3f5"
                         text_hi="#cad3f5"
-                        header="#24273a00"
+                        header="#24273aB3"
                         header_text="#cad3f5"
                         header_text_hi="#cad3f5"
                         button="#24273a00"
@@ -799,7 +799,7 @@
                     >
                         <panelcolors>
                             <ThemePanelColors
-                                header="#363a4fff"
+                                header="#363a4fB3"
                                 back="#363a4fff"
                                 sub_back="#181926"
                             >
@@ -843,7 +843,7 @@
                         title="#cad3f5"
                         text="#cad3f5"
                         text_hi="#cad3f5"
-                        header="#24273a00"
+                        header="#24273aB3"
                         header_text="#cad3f5"
                         header_text_hi="#24273a"
                         button="#24273a00"
@@ -859,7 +859,7 @@
                     >
                         <panelcolors>
                             <ThemePanelColors
-                                header="#363a4fff"
+                                header="#363a4fB3"
                                 back="#363a4fff"
                                 sub_back="#181926"
                             >
@@ -889,7 +889,7 @@
                         title="#cad3f5"
                         text="#cad3f5"
                         text_hi="#cad3f5"
-                        header="#24273a00"
+                        header="#24273aB3"
                         header_text="#cad3f5"
                         header_text_hi="#cad3f5"
                         button="#24273a00"
@@ -905,7 +905,7 @@
                     >
                         <panelcolors>
                             <ThemePanelColors
-                                header="#363a4fff"
+                                header="#363a4fB3"
                                 back="#363a4fff"
                                 sub_back="#181926"
                             >
@@ -936,7 +936,7 @@
                         title="#cad3f5"
                         text="#cad3f5"
                         text_hi="#cad3f5"
-                        header="#24273a00"
+                        header="#24273aB3"
                         header_text="#cad3f5"
                         header_text_hi="#cad3f5"
                         button="#24273a00"
@@ -952,7 +952,7 @@
                     >
                         <panelcolors>
                             <ThemePanelColors
-                                header="#363a4fff"
+                                header="#363a4fB3"
                                 back="#363a4fff"
                                 sub_back="#181926"
                             >
@@ -1000,7 +1000,7 @@
                         title="#cad3f5"
                         text="#cad3f5"
                         text_hi="#cad3f5"
-                        header="#24273a00"
+                        header="#24273aB3"
                         header_text="#cad3f5"
                         header_text_hi="#cad3f5"
                         button="#24273a00"
@@ -1016,7 +1016,7 @@
                     >
                         <panelcolors>
                             <ThemePanelColors
-                                header="#363a4fff"
+                                header="#363a4fB3"
                                 back="#363a4fff"
                                 sub_back="#181926"
                             >
@@ -1051,7 +1051,7 @@
                         title="#cad3f5"
                         text="#cad3f5"
                         text_hi="#cad3f5"
-                        header="#24273a00"
+                        header="#24273aB3"
                         header_text="#cad3f5"
                         header_text_hi="#cad3f5"
                         button="#24273a00"
@@ -1067,7 +1067,7 @@
                     >
                         <panelcolors>
                             <ThemePanelColors
-                                header="#363a4fff"
+                                header="#363a4fB3"
                                 back="#363a4fff"
                                 sub_back="#181926"
                             >
@@ -1100,7 +1100,7 @@
                         title="#cad3f5"
                         text="#cad3f5"
                         text_hi="#cad3f5"
-                        header="#24273a00"
+                        header="#24273aB3"
                         header_text="#cad3f5"
                         header_text_hi="#cad3f5"
                         button="#24273a00"
@@ -1116,7 +1116,7 @@
                     >
                         <panelcolors>
                             <ThemePanelColors
-                                header="#363a4fff"
+                                header="#363a4fB3"
                                 back="#363a4fff"
                                 sub_back="#181926"
                             >
@@ -1134,7 +1134,7 @@
                         title="#cad3f5"
                         text="#cad3f5"
                         text_hi="#cad3f5"
-                        header="#24273a00"
+                        header="#24273aB3"
                         header_text="#cad3f5"
                         header_text_hi="#cad3f5"
                         button="#24273a00"
@@ -1150,7 +1150,7 @@
                     >
                         <panelcolors>
                             <ThemePanelColors
-                                header="#363a4fff"
+                                header="#363a4fB3"
                                 back="#363a4fff"
                                 sub_back="#181926"
                             >
@@ -1175,7 +1175,7 @@
                         title="#cad3f5"
                         text="#cad3f5"
                         text_hi="#cad3f5"
-                        header="#24273a00"
+                        header="#24273aB3"
                         header_text="#cad3f5"
                         header_text_hi="#cad3f5"
                         button="#24273a00"
@@ -1191,7 +1191,7 @@
                     >
                         <panelcolors>
                             <ThemePanelColors
-                                header="#363a4fff"
+                                header="#363a4fB3"
                                 back="#363a4fff"
                                 sub_back="#181926"
                             >
@@ -1240,7 +1240,7 @@
                         title="#cad3f5"
                         text="#cad3f5"
                         text_hi="#cad3f5"
-                        header="#24273a00"
+                        header="#24273aB3"
                         header_text="#cad3f5"
                         header_text_hi="#cad3f5"
                         button="#24273a00"
@@ -1256,7 +1256,7 @@
                     >
                         <panelcolors>
                             <ThemePanelColors
-                                header="#363a4fff"
+                                header="#363a4fB3"
                                 back="#363a4fff"
                                 sub_back="#181926"
                             >
@@ -1283,7 +1283,7 @@
                         title="#cad3f5"
                         text="#cad3f5"
                         text_hi="#cad3f5"
-                        header="#18192600"
+                        header="#181926B3"
                         header_text="#cad3f5"
                         header_text_hi="#cad3f5"
                         button="#24273a00"
@@ -1299,7 +1299,7 @@
                     >
                         <panelcolors>
                             <ThemePanelColors
-                                header="#363a4fff"
+                                header="#363a4fB3"
                                 back="#363a4fff"
                                 sub_back="#181926"
                             >
@@ -1317,7 +1317,7 @@
                         title="#cad3f5"
                         text="#cad3f5"
                         text_hi="#cad3f5"
-                        header="#18192600"
+                        header="#181926B3"
                         header_text="#cad3f5"
                         header_text_hi="#cad3f5"
                         button="#24273a00"
@@ -1333,7 +1333,7 @@
                     >
                         <panelcolors>
                             <ThemePanelColors
-                                header="#363a4fff"
+                                header="#363a4fB3"
                                 back="#363a4fff"
                                 sub_back="#181926"
                             >
@@ -1353,7 +1353,7 @@
                         title="#cad3f5"
                         text="#cad3f5"
                         text_hi="#cad3f5"
-                        header="#24273a00"
+                        header="#24273aB3"
                         header_text="#cad3f5"
                         header_text_hi="#cad3f5"
                         button="#24273a00"
@@ -1369,7 +1369,7 @@
                     >
                         <panelcolors>
                             <ThemePanelColors
-                                header="#363a4fff"
+                                header="#363a4fB3"
                                 back="#363a4fff"
                                 sub_back="#181926"
                             >
