@@ -548,7 +548,7 @@
                         list="#1e2030"
                         list_title="#cad3f5"
                         list_text="#cad3f5"
-                        list_text_hi="#cad3f5"
+                        list_text_hi="#1e66f5"
                     >
                     </ThemeSpaceListGeneric>
                 </space_list>
@@ -652,7 +652,7 @@
                         list="#1e2030"
                         list_title="#cad3f5"
                         list_text="#cad3f5"
-                        list_text_hi="#cad3f5"
+                        list_text_hi="#1e66f5"
                     >
                     </ThemeSpaceListGeneric>
                 </space_list>
@@ -667,7 +667,7 @@
                 time_marker_line_selected="#1e66f5ff"
                 value_sliders="#cad3f5"
                 view_sliders="#c0c0c0"
-                dopesheet_channel="#494d6466"
+                dopesheet_channel="#1e66f566"
                 dopesheet_subchannel="#494d6466"
                 channels="#494d6466"
                 channels_selected="#494d6466"
@@ -727,7 +727,7 @@
                         list="#1e2030"
                         list_title="#cad3f5"
                         list_text="#cad3f5"
-                        list_text_hi="#cad3f5"
+                        list_text_hi="#1e66f5"
                     >
                     </ThemeSpaceListGeneric>
                 </space_list>
@@ -872,7 +872,7 @@
                         list="#1e2030"
                         list_title="#cad3f5"
                         list_text="#cad3f5"
-                        list_text_hi="#cad3f5"
+                        list_text_hi="#1e66f5"
                     >
                     </ThemeSpaceListGeneric>
                 </space_list>
@@ -1029,7 +1029,7 @@
                         list="#1e2030"
                         list_title="#cad3f5"
                         list_text="#cad3f5"
-                        list_text_hi="#cad3f5"
+                        list_text_hi="#1e66f5"
                     >
                     </ThemeSpaceListGeneric>
                 </space_list>
@@ -1269,7 +1269,7 @@
                         list="#1e2030"
                         list_title="#cad3f5"
                         list_text="#cad3f5"
-                        list_text_hi="#cad3f5"
+                        list_text_hi="#1e66f5"
                     >
                     </ThemeSpaceListGeneric>
                 </space_list>
@@ -1382,7 +1382,7 @@
                         list="#1e2030"
                         list_title="#cad3f5"
                         list_text="#cad3f5"
-                        list_text_hi="#cad3f5"
+                        list_text_hi="#1e66f5"
                     >
                     </ThemeSpaceListGeneric>
                 </space_list>
