@@ -38,7 +38,7 @@
                         inner_sel="#bada55ff"
                         item="#cdd6f4ff"
                         text="#cdd6f4"
-                        text_sel="#1e1e2e"
+                        text_sel="#cdd6f4"
                         show_shaded="FALSE"
                         shadetop="0"
                         shadedown="0"
