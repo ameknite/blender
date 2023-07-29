@@ -481,7 +481,7 @@
         <graph_editor>
             <ThemeGraphEditor
                 grid="#363a4f"
-                frame_current="#1e66f5"
+                frame_current="#d20f39ff"
                 time_scrub_background="#1e2030ff"
                 time_marker_line="#cad3f5ff"
                 time_marker_line_selected="#d20f39ff"
