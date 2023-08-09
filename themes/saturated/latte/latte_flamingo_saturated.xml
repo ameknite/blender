@@ -274,7 +274,7 @@
                 <wcol_scroll>
                     <ThemeWidgetColors
                         outline="#bcc0cc"
-                        inner="#bcc0ccff"
+                        inner="#bcc0cc00"
                         inner_sel="#e6e9efff"
                         item="#bcc0ccff"
                         text="#4c4f69"
@@ -282,12 +282,11 @@
                         show_shaded="FALSE"
                         shadetop="0"
                         shadedown="0"
-                        roundness="0.4"
+                        roundness="1.0"
                     >
                     </ThemeWidgetColors>
                 </wcol_scroll>
-                <wcol_progress>
-                    <ThemeWidgetColors
+                <wcol_progress>`1 <ThemeWidgetColors
                         outline="#bcc0cc"
                         inner="#e6e9efff"
                         inner_sel="#e6e9efff"
