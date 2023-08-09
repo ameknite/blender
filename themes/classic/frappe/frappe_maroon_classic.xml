@@ -824,7 +824,7 @@
                 mask_strip="#eebebe"
                 text_strip="#c6d0f5"
                 active_strip="#ea999c"
-                selected_strip="#ea999c"
+                selected_strip="#c6d0f5"
                 frame_current="#ea999c"
                 time_scrub_background="#292c3cff"
                 time_marker_line="#c6d0f54D"
