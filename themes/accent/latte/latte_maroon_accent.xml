@@ -33,7 +33,7 @@
             >
                 <wcol_regular>
                     <ThemeWidgetColors
-                        outline="#bcc0cc"
+                        outline="#ccd0da"
                         inner="#bcc0ccff"
                         inner_sel="#e64553ff"
                         item="#4c4f69ff"
