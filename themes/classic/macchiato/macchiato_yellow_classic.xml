@@ -258,12 +258,12 @@
                 </wcol_tooltip>
                 <wcol_menu_item>
                     <ThemeWidgetColors
-                        outline="#181926"
-                        inner="#181926ff"
+                        outline="#18192600"
+                        inner="#18192600"
                         inner_sel="#eed49fff"
                         item="#cad3f5ff"
                         text="#cad3f5"
-                        text_sel="#24273a"
+                        text_sel="#cad3f5"
                         show_shaded="FALSE"
                         shadetop="0"
                         shadedown="0"
