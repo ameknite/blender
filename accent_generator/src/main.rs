@@ -45,7 +45,7 @@ fn main() {
 static MASTER_PALLET: &str = "mocha_master.xml";
 static ACCENT_COLOR: &str = "#bada55";
 
-static COLORS: [&str; 14] = [
+static COLORS: [&str; 15] = [
     "rosewater",
     "flamingo",
     "pink",
@@ -60,22 +60,23 @@ static COLORS: [&str; 14] = [
     "sapphire",
     "blue",
     "lavender",
+    "celeste",
 ];
-static LATTE_COLORS: [&str; 14] = [
+static LATTE_COLORS: [&str; 15] = [
     "#dc8a78", "#dd7878", "#ea76cb", "#8839ef", "#d20f39", "#e64553", "#fe640b", "#df8e1d",
-    "#40a02b", "#179299", "#04a5e5", "#209fb5", "#1e66f5", "#7287fd",
+    "#40a02b", "#179299", "#04a5e5", "#209fb5", "#1e66f5", "#7287fd", "#5dadec",
 ];
-static FRAPPE_COLORS: [&str; 14] = [
+static FRAPPE_COLORS: [&str; 15] = [
     "#f2d5cf", "#eebebe", "#f4b8e4", "#ca9ee6", "#e78284", "#ea999c", "#ef9f76", "#e5c890",
-    "#a6d189", "#81c8be", "#99d1db", "#85c1dc", "#8caaee", "#babbf1",
+    "#a6d189", "#81c8be", "#99d1db", "#85c1dc", "#8caaee", "#babbf1", "#5dadec",
 ];
-static MACCHIATO_COLORS: [&str; 14] = [
+static MACCHIATO_COLORS: [&str; 15] = [
     "#f4dbd6", "#f0c6c6", "#f5bde6", "#c6a0f6", "#ed8796", "#ee99a0", "#f5a97f", "#eed49f",
-    "#a6da95", "#8bd5ca", "#91d7e3", "#7dc4e4", "#8aadf4", "#b7bdf8",
+    "#a6da95", "#8bd5ca", "#91d7e3", "#7dc4e4", "#8aadf4", "#b7bdf8", "#5dadec",
 ];
-static MOCHA_COLORS: [&str; 14] = [
+static MOCHA_COLORS: [&str; 15] = [
     "#f5e0dc", "#f2cdcd", "#f5c2e7", "#cba6f7", "#f38ba8", "#eba0ac", "#fab387", "#f9e2af",
-    "#a6e3a1", "#94e2d5", "#89dceb", "#74c7ec", "#89b4fa", "#b4befe",
+    "#a6e3a1", "#94e2d5", "#89dceb", "#74c7ec", "#89b4fa", "#b4befe", "#5dadec",
 ];
 
 #[derive(Default, Debug)]
@@ -94,9 +95,9 @@ struct Palette {
 impl Palette {
     fn new(
         name: &str,
-        colors: [&str; 14],
-        hexes: [&str; 14],
-        contrast_colors: Option<[&str; 14]>,
+        colors: [&str; 15],
+        hexes: [&str; 15],
+        contrast_colors: Option<[&str; 15]>,
     ) -> Self {
         let mut colors: Vec<Color> = colors
             .iter()
@@ -161,8 +162,12 @@ fn create_master_themes() {
     }
     // create themes
     let mut child = Command::new("puccinier")
-        .args(["-s", MASTER_PALLET])
-        .args(["-o", "latte", "frappe", "macchiato", "mocha"])
+        .args([MASTER_PALLET])
+        .args(["-s"])
+        .args(["-o", "latte"])
+        .args(["-o", "frappe"])
+        .args(["-o", "macchiato"])
+        .args(["-o", "mocha"])
         .spawn()
         .expect("Failed to generated master themes");
     child.wait().expect("failed to wait on child");
