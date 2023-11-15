@@ -303,7 +303,7 @@
                 <wcol_list_item>
                     <ThemeWidgetColors
                         outline="#bcc0cc"
-                        inner="#bcc0ccff"
+                        inner="#bcc0cc00"
                         inner_sel="#7287fdff"
                         item="#4c4f69ff"
                         text="#4c4f69"
