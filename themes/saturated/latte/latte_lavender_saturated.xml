@@ -459,7 +459,7 @@
                     >
                         <gradients>
                             <ThemeGradientColors
-                                background_type="RADIAL"
+                                background_type="SINGLE_COLOR"
                                 high_gradient="#eff1f5"
                                 gradient="#e6e9ef"
                             >
